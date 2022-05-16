@@ -17,4 +17,4 @@ Create SnackUpdateView
 
 Create SnackDeleteView 
 
-## PR 
+## PR :[LINK](https://github.com/hind-hb/snack_crud_django/branches)
