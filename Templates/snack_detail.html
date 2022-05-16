@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+
+  {{ Snacks.title }}
+  <div class="row">
+    <div class="col-sm-4">
+<ul class="list-group">
+    <li class="list-group-item list-group-item-info">Name: {{Snacks.title}}</li>
+    <li class="list-group-item list-group-item-info">Purchaser: {{Snacks.purchaser}}</li>
+    <li class="list-group-item list-group-item-info">Description: {{Snacks.description}}</li>
+
+  </ul>
+  </div>
+  </div>
+</div>
+
+{% endblock content %}
